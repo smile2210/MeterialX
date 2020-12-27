@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    tools:context=".CustomSnackbarActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_arrow_back_24px"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Snackbar Custom"
+            android:textAllCaps="false"
+            android:textColor="#F8F4F4"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/primarycolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primary Color"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accentaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Accent Action"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card Light"
+                android:layout_marginTop="15dp"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/carddark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Card Dark"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Card Image"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/textmiddle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Text Middle"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconerror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Icon Error"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconsuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Icon Success"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iconinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Icon Info"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="13dp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="#817A7A"></View>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

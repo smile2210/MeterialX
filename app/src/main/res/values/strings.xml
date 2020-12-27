@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MaterialX</string>
+    <string name="xyz">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris aenim sollicitudin</string>
+    <string name="Description">Duis tellus metus, elementum a lactus id,
+    aliquet interdum mauris. Nam bibendum
+    efficitur Sollicitudin. Proin eleifendclibero velit, nec fringilla dolor finibus
+    quis. nMotbi eu libero pelletesque,
+    rutrum metus quis, blandit est. Fusce
+    bibendum accumsan nisi vulputate feugiat. In fermentum laoreet euismod.
+    Praesent sem nisl, facilisis eget odio at,
+    rhoncus scelerisque ipsum. Nulla orci
+    dui, dignissim a risus ut, lobortis porttitor
+    velit.</string>
+    <string name="abc">Nulla id lectus metus. Maecenas a lorem
+    in odio auctor facilisis non vitae nunc.
+    Sed malesuada volutpat massa. Praesent
+    sit amet lacinia augue, mollis tempor
+    dolor.</string>
+    <string name="smb">A salad is a dish consisting of a mixture of small pieces of food, usually vegetables or fruit.
+                       However, different varieties of salad may contain virtually any type of ready-to-eat food.
+                       Salads are typically served at room temperature or chilled, with notable exceptions such as south German potato salad which can be served warm.
+                       Garden salads use a base of leafy greens such as lettuce, arugula/rocket, kale or spinach; they are common enough that the word salad alone often refers specifically to garden salads.
+                       Other types include bean salad, tuna salad, fattoush, Greek salad (vegetable-based, but without leafy greens), and sōmen salad (a noodle-based salad).
+                       The sauce used to flavor a salad is commonly called a salad dressing; most salad dressings are based on either a mixture of oil and vinegar or mayonnaise or a fermented milk product like kefir.</string>
+    <string name="phone">Please enter your mobile number to
+                         receive a verification code. Carrier
+                                   rats may apply</string>
+    <string name="code">OTP has been sent to you on your
+                        mobile phone. Please enter it below</string>
+    <string name="company1">Duis tellus metus, elementum a lectus id, aliquet interdum mauris. Nam bibendum efficitur sollicitudin.
+                           Proin eleifend libero velit, nec fringilla dolor finibus quis, blandit est.
+                           Fusce bibendum accumsan nisi vulputate feugiat. In fermentum laoreet euismod. Present sem nisi, facilisis
+                           eget odio at, rhoncus scelerisque ipsum. Nulla orci dui, dignissim a risus ut, lobortis porttitor velit.</string>
+    <string name="company2">Nulla id lectus metus. Maecenas a lorem in odio auctor facilisis non vitae nunc. Sed malesuada volutpat massa.
+                            Praesent sit amet lacinia augue, mollis tempor dolor.</string>
+</resources>

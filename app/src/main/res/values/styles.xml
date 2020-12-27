@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="chack" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">#344AC5</item>
+    </style>
+
+    <style name="green" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="cardoverlap" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="imageteal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#D91A777C</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="simplelight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="app" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#E80A0A</item>
+    </style>
+
+    <style name="code" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#F33E59</item>
+    </style>
+
+    <style name="phone" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#817676</item>
+    </style>
+
+    <style name="image" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+    </style>
+
+    <style name="undo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#F33E59</item>
+    </style>
+
+    <style name="flight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#E38916</item>
+        <item name="colorAccent">#CF1414</item>
+    </style>
+
+    <style name="pink" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#C51162</item>
+    </style>
+    <style name="orange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FF3D00</item>
+    </style>
+</resources>

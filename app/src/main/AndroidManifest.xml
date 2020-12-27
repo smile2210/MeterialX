@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.materialx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Product_gridActivity"></activity>
+        <activity android:name=".Category_ImageActivity" />
+        <activity android:name=".Category_ListActivity" />
+        <activity android:name=".ShoppingActivity" />
+        <activity android:name=".List_HorizontalActivity" />
+        <activity android:name=".List_BasicActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".DarkActivity" />
+        <activity android:name=".Wallet_ProfileActivity" />
+        <activity android:name=".CardheaderImageActivity" />
+        <activity android:name=".CardHeaderActivity" />
+        <activity
+            android:name=".FabmenuActivity"
+            android:theme="@style/orange" />
+        <activity android:name=".BlueAddapterActivity" />
+        <activity
+            android:name=".RedActivity"
+            android:theme="@style/pink" />
+        <activity android:name=".PolygonActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".TowLineActivity" />
+        <activity android:name=".GridBasicActivity" />
+        <activity android:name=".GridActivity" />
+        <activity
+            android:name=".TravelActivity"
+            android:theme="@style/green" />
+        <activity android:name=".CryptoActivity" />
+        <activity android:name=".FinanceActivity" />
+        <activity android:name=".WalletgreenActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity
+            android:name=".FlightActivity"
+            android:theme="@style/flight" />
+        <activity android:name=".PaybillActivity" />
+        <activity android:name=".StatisticActivity" />
+        <activity android:name=".DashBoardActivity" />
+        <activity android:name=".CustomSnackbarActivity2" />
+        <activity android:name=".ToastActivity" />
+        <activity
+            android:name=".Basic2Activity"
+            android:theme="@style/undo" />
+        <activity android:name=".SnackbarActivity" />
+        <activity
+            android:name=".CompanycardActivity"
+            android:theme="@style/app" />
+        <activity
+            android:name=".CompanyActivity"
+            android:theme="@style/green" />
+        <activity
+            android:name=".AppActivity"
+            android:theme="@style/app" />
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".ImageActivity"
+            android:theme="@style/image" />
+        <activity
+            android:name=".CodeActivity"
+            android:theme="@style/code" />
+        <activity
+            android:name=".PhoneActivity"
+            android:theme="@style/phone" />
+        <activity android:name=".VerifyActivity" />
+        <activity
+            android:name=".FoodreviewActivity"
+            android:theme="@style/green" />
+        <activity android:name=".ArticalActivity" />
+        <activity
+            android:name=".CardoverlapActivity"
+            android:theme="@style/cardoverlap" />
+        <activity
+            android:name=".CardlightActivity"
+            android:theme="@style/chack" />
+        <activity
+            android:name=".ImagetealActivity"
+            android:theme="@style/imageteal" />
+        <activity
+            android:name=".SimplegreenActivity"
+            android:theme="@style/green" />
+        <activity
+            android:name=".SimplelightActivity"
+            android:theme="@style/simplelight" />
+        <activity android:name=".Login2Activity" />
+        <activity android:name=".Form3Activity" />
+        <activity android:name=".Form2Activity" />
+        <activity android:name=".OverlapActivity" />
+        <activity android:name=".BasicActivity" />
+        <activity android:name=".Cards2Activity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

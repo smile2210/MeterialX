@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Basic2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_arrow_back_24px"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Snackbar &amp; Toast"
+            android:textAllCaps="false"
+            android:textColor="#F8F4F4"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_search_24px"></ImageView>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/ic_more_vert_24px"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:layout_marginBottom="5dp"
+            android:textSize="15dp"></TextView>
+
+        <Button
+            android:id="@+id/simple1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="Simple"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+        <Button
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="Custom Layout"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            tools:ignore="InvalidId"></Button>
+
+        <Button
+            android:id="@+id/colored"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="Custom colored"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#635D5D"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snackbar"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"></TextView>
+
+        <Button
+            android:id="@+id/simple2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="Simple"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+        <Button
+            android:id="@+id/action"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="With Action"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+        <Button
+            android:id="@+id/indefinite"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backside"
+            android:backgroundTint="#EC407A"
+            android:text="with action indefinite"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
